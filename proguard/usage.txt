@@ -1,0 +1,880 @@
+co.breezing.main.DeviceList:
+    private static final java.lang.String tag
+co.breezing.main.Metabolism:
+    public static final int PLOT_SIZE
+    public static java.lang.String qrcode
+co.breezing.main.Results:
+    private android.widget.TextView title
+co.breezing.math.round.RoundData:
+    5:5:public RoundData()
+    21:22:public static double roundThreeDecimals(double)
+co.breezing.metabolism.parameter.Constant:
+    3:3:public Constant()
+co.breezing.metabolism.parameter.Parameter:
+    3:3:public Parameter()
+co.breezing.module.BuildConfig
+co.breezing.module.R
+co.breezing.module.R$array
+co.breezing.module.R$attr
+co.breezing.module.R$color
+co.breezing.module.R$dimen
+co.breezing.module.R$drawable
+co.breezing.module.R$id
+co.breezing.module.R$layout
+co.breezing.module.R$menu
+co.breezing.module.R$raw
+co.breezing.module.R$string
+co.breezing.module.R$style
+co.breezing.module.R$xml
+co.breezing.module.eight.flowcalc.FlowCalculation:
+    104:104:public int getFrequency()
+co.breezing.module.eight.flowcalc.SaveBreathfreqFile:
+    12:12:public SaveBreathfreqFile()
+co.breezing.module.eleven.reerq.REERQCalc:
+    43:43:public co.breezing.module.nine.absorbcalc.SavedAbsorbData getSavedAbsorbData()
+co.breezing.module.eleven.reerq.RQDescription:
+    3:3:public RQDescription()
+co.breezing.module.eleven.reerq.SaveFinalDataFile:
+    17:17:public SaveFinalDataFile()
+co.breezing.module.five.adaptionReference.AdaptionReference:
+    69:69:public static co.breezing.module.five.adaptionReference.AdaptionReference getInstance()
+    73:74:public static void setInstance(co.breezing.module.five.adaptionReference.AdaptionReference)
+co.breezing.module.five.adaptionReference.ReeReference:
+    6:6:public ReeReference()
+co.breezing.module.four.guidance.BfAndTimeFromFile:
+    10:10:public BfAndTimeFromFile()
+    17:17:public static java.lang.String getBreathFreq()
+    21:22:public static void setBreathFreq(java.lang.String)
+    25:25:public static java.lang.String getTime()
+    29:30:public static void setTime(java.lang.String)
+co.breezing.module.four.guidance.Biofeedback:
+    58:63:public void playSoundOnce(int,float,int)
+    67:69:public void changePlayRate(float)
+co.breezing.module.four.guidance.Guidance:
+    private static android.graphics.drawable.AnimationDrawable animation
+    public static co.breezing.module.four.guidance.Biofeedback biofeedback
+    10:10:static synthetic android.graphics.drawable.AnimationDrawable access$0()
+co.breezing.module.four.guidance.Guidance$Starter
+co.breezing.module.nine.absorbcalc.AbsorbanceCalc:
+    95:95:public double getAbsorbance_co2_init()
+co.breezing.module.nine.absorbcalc.SaveAbsorbDataFile:
+    17:17:public SaveAbsorbDataFile()
+co.breezing.module.nine.absorbcalc.SavePressureDataFile:
+    17:17:public SavePressureDataFile()
+co.breezing.module.nine.absorbcalc.SavedRawData:
+    25:25:public static java.util.ArrayList getInstance_list()
+    29:30:public static void setInstance_list(java.util.ArrayList)
+    33:33:public int getIndex()
+co.breezing.module.one.qrcode.QRcodeFromFile:
+    10:10:public QRcodeFromFile()
+    16:16:public static java.lang.String getQrcode()
+    20:21:public static void setQrcode(java.lang.String)
+co.breezing.module.one.qrcode.QRcodeParse:
+    40:40:public java.lang.String getVersion_number()
+    48:48:public java.lang.String getManufacture_date()
+    56:56:public java.lang.String getPackage_number()
+    64:64:public java.lang.String getCartridge_number()
+    72:72:public java.lang.String getBreezing_unique_code()
+co.breezing.module.one.qrcode.SaveQRFile:
+    12:12:public SaveQRFile()
+co.breezing.module.one.qrcode.thirdlib.capture.CaptureActivity:
+    private static final long DEFAULT_INTENT_RESULT_DURATION_MS
+    private static final java.lang.String PRODUCT_SEARCH_URL_PREFIX
+    private static final java.lang.String PRODUCT_SEARCH_URL_SUFFIX
+    private static final java.lang.String RETURN_URL_PARAM
+    private java.lang.String versionName
+    337:368:private void drawResultPoints(android.graphics.Bitmap,com.google.zxing.Result)
+    372:373:private static void drawLine(android.graphics.Canvas,android.graphics.Paint,com.google.zxing.ResultPoint,com.google.zxing.ResultPoint)
+    377:387:private void sendReplyMessage(int,java.lang.Object)
+co.breezing.module.one.qrcode.thirdlib.capture.CaptureActivityHandler:
+    public static int flag
+co.breezing.module.one.qrcode.thirdlib.capture.DecodeFormatManager:
+    49:50:private DecodeFormatManager()
+co.breezing.module.one.qrcode.thirdlib.capture.DecodeThread:
+    public static final java.lang.String BARCODE_BITMAP
+co.breezing.module.one.qrcode.thirdlib.capture.InactivityTimer:
+    private static final int INACTIVITY_DELAY_SECONDS
+co.breezing.module.one.qrcode.thirdlib.capture.Intents
+co.breezing.module.one.qrcode.thirdlib.capture.Intents$Encode
+co.breezing.module.one.qrcode.thirdlib.capture.Intents$Scan
+co.breezing.module.one.qrcode.thirdlib.capture.Intents$SearchBookContents
+co.breezing.module.one.qrcode.thirdlib.capture.Intents$Share
+co.breezing.module.one.qrcode.thirdlib.capture.Intents$WifiConnect
+co.breezing.module.one.qrcode.thirdlib.capture.PlanarYUVLuminanceSource:
+    112:112:public boolean isCropSupported()
+co.breezing.module.one.qrcode.thirdlib.capture.PreferencesActivity:
+    public static final java.lang.String KEY_DECODE_1D
+    public static final java.lang.String KEY_DECODE_QR
+    public static final java.lang.String KEY_DECODE_DATA_MATRIX
+    public static final java.lang.String KEY_CUSTOM_PRODUCT_SEARCH
+    public static final java.lang.String KEY_REVERSE_IMAGE
+    public static final java.lang.String KEY_PLAY_BEEP
+    public static final java.lang.String KEY_VIBRATE
+    public static final java.lang.String KEY_COPY_TO_CLIPBOARD
+    public static final java.lang.String KEY_FRONT_LIGHT
+    public static final java.lang.String KEY_BULK_MODE
+    public static final java.lang.String KEY_REMEMBER_DUPLICATES
+    public static final java.lang.String KEY_SUPPLEMENTAL
+    public static final java.lang.String KEY_SEARCH_COUNTRY
+    public static final java.lang.String KEY_HELP_VERSION_SHOWN
+co.breezing.module.one.qrcode.thirdlib.capture.ViewfinderView:
+    private static final long ANIMATION_DELAY
+    private static final int CURRENT_POINT_OPACITY
+    private static final int MAX_RESULT_POINTS
+    private static final int POINT_SIZE
+    206:208:public void drawResultBitmap(android.graphics.Bitmap)
+co.breezing.module.one.qrcode.thirdlib.manager.AutoFocusCallback:
+    private static final long AUTOFOCUS_INTERVAL_MS
+co.breezing.module.one.qrcode.thirdlib.manager.CameraConfigurationManager:
+    private static final java.lang.String TAG
+    private static final int MIN_PREVIEW_PIXELS
+    private static final int MAX_PREVIEW_PIXELS
+    110:122:void setTorch(android.hardware.Camera,boolean)
+co.breezing.module.one.qrcode.thirdlib.manager.CameraManager:
+    private static final int MIN_FRAME_WIDTH
+    private static final int MIN_FRAME_HEIGHT
+    private static final int MAX_FRAME_WIDTH
+    private static final int MAX_FRAME_HEIGHT
+co.breezing.module.seven.dataTranslation.DataTranslation:
+    65:66:public void setPd1(double)
+    73:74:public void setPd2(double)
+    81:82:public void setPd3(double)
+    89:90:public void setPd4(double)
+    97:98:public void setStatus(double)
+    105:106:public void setResolution(double)
+    113:114:public void setPressure(double)
+    121:122:public void setThermistor(double)
+    129:130:public void setVolume(double)
+    137:138:public void setVolume_list(java.util.ArrayList)
+    145:146:public void setPd1_list(java.util.ArrayList)
+    153:154:public void setPd2_list(java.util.ArrayList)
+    161:162:public void setPd3_list(java.util.ArrayList)
+    169:170:public void setPd4_list(java.util.ArrayList)
+co.breezing.module.seven.dataTranslation.RawData:
+    35:36:public void setBufferData(byte[])
+co.breezing.module.six.bluetooth.Bluetooth:
+    45:46:public void setBluetoothAdapter(android.bluetooth.BluetoothAdapter)
+    49:49:public android.bluetooth.BluetoothDevice getBtDevice()
+    53:54:public void setBtDevice(android.bluetooth.BluetoothDevice)
+    57:57:public java.lang.String getBtDeviceName()
+    61:62:public void setBtDeviceName(java.lang.String)
+    69:70:public void setBtSocket(android.bluetooth.BluetoothSocket)
+    73:73:public boolean isConnectionEstablished()
+    77:78:public void setConnectionEstablished(boolean)
+    85:86:public void setIn(java.io.InputStream)
+    93:94:public void setOut(java.io.OutputStream)
+    211:219:public java.util.ArrayList listAllDevices()
+co.breezing.module.six.bluetooth.MACFromFile
+co.breezing.module.six.bluetooth.SaveMACFile:
+    12:12:public SaveMACFile()
+co.breezing.module.three.adaptionSuggestion.AdaptionSuggestion:
+    private double bf
+    private double ve
+    private double etv
+    private double bf_max
+    private double bf_min
+    private double ve_max
+    private double ve_min
+    private double etv_max
+    private double etv_min
+    private java.util.ArrayList bf_list
+    private java.util.ArrayList ve_list
+    private java.util.ArrayList etv_list
+    43:43:public double getBf()
+    47:48:public void setBf(double)
+    51:51:public double getVe()
+    55:56:public void setVe(double)
+    59:59:public double getEtv()
+    63:64:public void setEtv(double)
+    67:67:public double getBf_max()
+    71:72:public void setBf_max(double)
+    75:75:public double getBf_min()
+    79:80:public void setBf_min(double)
+    83:83:public double getVe_max()
+    87:88:public void setVe_max(double)
+    91:91:public double getVe_min()
+    95:96:public void setVe_min(double)
+    99:99:public double getEtv_max()
+    103:104:public void setEtv_max(double)
+    107:107:public double getEtv_min()
+    111:112:public void setEtv_min(double)
+    115:115:public java.util.ArrayList getBf_list()
+    119:120:public void setBf_list(java.util.ArrayList)
+    123:123:public java.util.ArrayList getVe_list()
+    127:128:public void setVe_list(java.util.ArrayList)
+    131:131:public java.util.ArrayList getEtv_list()
+    135:136:public void setEtv_list(java.util.ArrayList)
+co.breezing.module.two.pdcheck.PDCheck:
+    6:6:public PDCheck()
+    19:19:public int getCartridge_status()
+    23:24:public void setCartridge_status(int)
+com.androidplot.LineRegion:
+    25:25:public boolean intersects(com.androidplot.LineRegion)
+com.androidplot.Plot:
+    108:110:public boolean addListener(com.androidplot.PlotListener)
+    114:116:public boolean removeListener(com.androidplot.PlotListener)
+    136:137:public void position(com.androidplot.ui.widget.Widget,float,com.androidplot.xy.XLayoutStyle,float,com.androidplot.xy.YLayoutStyle)
+    149:150:public void position(com.androidplot.ui.widget.Widget,float,com.androidplot.xy.XLayoutStyle,float,com.androidplot.xy.YLayoutStyle,com.androidplot.ui.AnchorPosition)
+    208:213:public boolean removeSeries(com.androidplot.series.Series,java.lang.Class)
+    218:227:public void removeSeries(com.androidplot.series.Series)
+    239:239:public boolean setFormatter(com.androidplot.series.Series,java.lang.Class,java.lang.Object)
+    308:309:public void postRedraw()
+    312:318:public void postRedraw(boolean)
+    363:371:public void setBorderStyle(com.androidplot.Plot$BorderStyle,java.lang.Float,java.lang.Float)
+    417:418:public void setTitle(java.lang.String)
+    425:426:public void setLayoutManager(com.androidplot.ui.LayoutManager)
+    442:443:public void setDrawBorderEnabled(boolean)
+    450:451:public void setTitleWidget(com.androidplot.ui.widget.TitleWidget)
+    454:454:public android.graphics.Paint getBackgroundPaint()
+    458:459:public void setBackgroundPaint(android.graphics.Paint)
+    469:473:public void setPlotMargins(float,float,float,float)
+    483:487:public void setPlotPadding(float,float,float,float)
+    490:490:public float getPlotMarginTop()
+    494:495:public void setPlotMarginTop(float)
+    498:498:public float getPlotMarginBottom()
+    506:506:public float getPlotMarginLeft()
+    514:514:public float getPlotMarginRight()
+    522:522:public float getPlotPaddingTop()
+    526:527:public void setPlotPaddingTop(float)
+    530:530:public float getPlotPaddingBottom()
+    534:535:public void setPlotPaddingBottom(float)
+    538:538:public float getPlotPaddingLeft()
+    542:543:public void setPlotPaddingLeft(float)
+    546:546:public float getPlotPaddingRight()
+    550:551:public void setPlotPaddingRight(float)
+    564:570:public void setBorderPaint(android.graphics.Paint)
+com.androidplot.PlotEvent:
+    15:15:public com.androidplot.Plot getSource()
+com.androidplot.exception.PlotRenderException:
+    12:13:public PlotRenderException(java.lang.String)
+com.androidplot.series.ProportionalSeries
+com.androidplot.series.VectorSeries
+com.androidplot.ui.BoxModel:
+    67:71:public void setMargins(float,float,float,float)
+    75:79:public void setPadding(float,float,float,float)
+    127:128:public void setPaddingTop(float)
+    135:136:public void setPaddingRight(float)
+    143:144:public void setPaddingBottom(float)
+com.androidplot.ui.BoxModelable
+com.androidplot.ui.DataRenderer:
+    29:30:public void setPlot(com.androidplot.Plot)
+com.androidplot.ui.DynamicTableModel:
+    139:140:public void setNumRows(int)
+    147:148:public void setNumColumns(int)
+com.androidplot.ui.FixedTableModel
+com.androidplot.ui.FixedTableModel$a
+com.androidplot.ui.FixedTableModel$b
+com.androidplot.ui.LayoutManager:
+    64:64:public com.androidplot.ui.AnchorPosition getElementAnchor(com.androidplot.ui.widget.Widget)
+    69:74:public boolean setElementAnchor(com.androidplot.ui.widget.Widget,com.androidplot.ui.AnchorPosition)
+    226:227:public void position(com.androidplot.ui.widget.Widget,float,com.androidplot.xy.XLayoutStyle,float,com.androidplot.xy.YLayoutStyle)
+    234:234:public boolean isDrawOutlinesEnabled()
+    242:242:public android.graphics.Paint getOutlinePaint()
+    246:247:public void setOutlinePaint(android.graphics.Paint)
+    250:250:public boolean isDrawAnchorsEnabled()
+    270:271:public void setMarginPaint(android.graphics.Paint)
+    286:287:public void setPaddingPaint(android.graphics.Paint)
+    290:290:public boolean isDrawOutlineShadowsEnabled()
+    298:298:public android.graphics.Paint getOutlineShadowPaint()
+    302:303:public void setOutlineShadowPaint(android.graphics.Paint)
+com.androidplot.ui.PositionMetric:
+    3:3:public bridge synthetic void setLayoutType(java.lang.Enum)
+    3:3:public bridge synthetic void setValue(float)
+com.androidplot.ui.RenderBundle
+com.androidplot.ui.SeriesAndFormatterList:
+    50:56:public boolean remove(com.androidplot.series.Series)
+    73:73:public java.lang.Object setFormatter(com.androidplot.series.Series,java.lang.Object)
+com.androidplot.ui.SizeMetric:
+    9:9:public bridge synthetic void setValue(float)
+com.androidplot.ui.SizeMetrics:
+    31:34:public SizeMetrics(com.androidplot.ui.SizeMetric,com.androidplot.ui.SizeMetric)
+    41:42:public void setHeightMetric(com.androidplot.ui.SizeMetric)
+    67:67:public android.graphics.RectF getRoundedRect(android.graphics.RectF)
+    72:73:public void setWidthMetric(com.androidplot.ui.SizeMetric)
+com.androidplot.ui.TableModel$CellSizingMethod
+com.androidplot.ui.TableSizingMethod
+com.androidplot.ui.a:
+    39:41:public void setValue(float)
+    public abstract float getPixelValue(float)
+    50:52:public void setLayoutType(java.lang.Enum)
+com.androidplot.ui.widget.EmptyWidget
+com.androidplot.ui.widget.TextLabelWidget:
+    24:25:public TextLabelWidget(com.androidplot.ui.SizeMetrics)
+    104:105:public void setLabelPaint(android.graphics.Paint)
+    108:108:public com.androidplot.ui.TextOrientationType getOrientation()
+    112:113:public void setOrientation(com.androidplot.ui.TextOrientationType)
+com.androidplot.ui.widget.UserTextLabelWidget
+com.androidplot.ui.widget.Widget:
+    17:19:public Widget(com.androidplot.ui.SizeMetric,com.androidplot.ui.SizeMetric)
+    31:31:public boolean containsPoint(android.graphics.PointF)
+    40:41:public void setWidth(float)
+    44:45:public void setWidth(float,com.androidplot.ui.SizeLayoutType)
+    48:49:public void setHeight(float)
+    52:53:public void setHeight(float,com.androidplot.ui.SizeLayoutType)
+    55:55:public com.androidplot.ui.SizeMetric getWidthMetric()
+    58:58:public com.androidplot.ui.SizeMetric getHeightMetric()
+    82:83:public void setMargins(float,float,float,float)
+    86:87:public void setPadding(float,float,float,float)
+    90:90:public float getMarginTop()
+    98:98:public float getMarginBottom()
+    103:103:public float getPaddingLeft()
+    113:113:public float getPaddingTop()
+    118:119:public void setPaddingTop(float)
+    123:123:public float getPaddingRight()
+    128:129:public void setPaddingRight(float)
+    133:133:public float getPaddingBottom()
+    138:139:public void setPaddingBottom(float)
+    146:146:public float getMarginLeft()
+    150:151:public void setMarginLeft(float)
+    154:154:public float getMarginRight()
+    195:195:public android.graphics.Paint getBorderPaint()
+    199:200:public void setBorderPaint(android.graphics.Paint)
+    203:203:public android.graphics.Paint getBackgroundPaint()
+    231:232:public void setClippingEnabled(boolean)
+    235:235:public android.graphics.RectF getOutlineRect()
+    243:244:public void setVisible(boolean)
+com.androidplot.util.FontUtils:
+    6:6:public FontUtils()
+    27:30:public static float getStringHeight(java.lang.String,android.graphics.Paint)
+    41:41:public static float getHalfStringHeight(java.lang.String,android.graphics.Paint)
+com.androidplot.util.ListOrganizer:
+    27:35:public boolean moveAbove(java.lang.Object,java.lang.Object)
+    41:48:public boolean moveBeneath(java.lang.Object,java.lang.Object)
+    55:58:public boolean moveToBottom(java.lang.Object)
+    63:74:public boolean moveUp(java.lang.Object)
+    78:89:public boolean moveDown(java.lang.Object)
+    98:99:public void addToBottom(java.lang.Object)
+com.androidplot.util.PaintUtils
+com.androidplot.util.PixelUtils:
+    7:7:public PixelUtils()
+    42:42:public static android.graphics.RectF sink(android.graphics.RectF)
+    46:46:public static android.graphics.RectF nearestPixRect(float,float,float,float)
+com.androidplot.util.ValPixConverter:
+    9:9:public ValPixConverter()
+com.androidplot.util.ZHash:
+    24:24:public int size()
+    60:68:public synchronized void addToBottom(java.lang.Object,java.lang.Object)
+    79:85:public synchronized boolean moveAbove(java.lang.Object,java.lang.Object)
+    90:96:public synchronized boolean moveBeneath(java.lang.Object,java.lang.Object)
+    101:104:public synchronized boolean moveToBottom(java.lang.Object)
+    109:112:public synchronized boolean moveUp(java.lang.Object)
+    117:120:public synchronized boolean moveDown(java.lang.Object)
+    134:134:public java.util.List keys()
+com.androidplot.util.ZIndexable:
+    public abstract boolean moveToTop(java.lang.Object)
+    public abstract boolean moveAbove(java.lang.Object,java.lang.Object)
+    public abstract boolean moveBeneath(java.lang.Object,java.lang.Object)
+    public abstract boolean moveToBottom(java.lang.Object)
+    public abstract boolean moveUp(java.lang.Object)
+    public abstract boolean moveDown(java.lang.Object)
+com.androidplot.util.ZLinkedList:
+    24:24:public boolean moveAbove(java.lang.Object,java.lang.Object)
+    29:29:public boolean moveBeneath(java.lang.Object,java.lang.Object)
+    34:34:public boolean moveToBottom(java.lang.Object)
+    39:39:public boolean moveUp(java.lang.Object)
+    44:44:public boolean moveDown(java.lang.Object)
+    53:54:public void addToBottom(java.lang.Object)
+com.androidplot.xy.AxisValueLabelFormatter:
+    14:16:public AxisValueLabelFormatter(int)
+    23:24:public void setColor(int)
+com.androidplot.xy.BarFormatter:
+    12:13:public void setFillPaint(android.graphics.Paint)
+    20:21:public void setBorderPaint(android.graphics.Paint)
+    38:41:public BarFormatter(int,int)
+com.androidplot.xy.BarRenderer:
+    40:41:public void setBarWidth(float)
+com.androidplot.xy.BarRenderer$BarRenderStyle
+com.androidplot.xy.BezierLineAndPointFormatter
+com.androidplot.xy.LineAndPointFormatter:
+    103:105:public void enableShadows()
+    108:110:public void disableShadows()
+    117:118:public void setLinePaint(android.graphics.Paint)
+    125:126:public void setVertexPaint(android.graphics.Paint)
+    133:134:public void setFillPaint(android.graphics.Paint)
+com.androidplot.xy.RectRegion:
+    39:39:public boolean containsPoint(android.graphics.PointF)
+    43:43:public boolean containsValue(java.lang.Number,java.lang.Number)
+    57:57:public boolean intersects(com.androidplot.xy.RectRegion)
+    78:80:public boolean intersects(android.graphics.RectF,java.lang.Number,java.lang.Number,java.lang.Number,java.lang.Number)
+    130:131:public void setMinX(double)
+    138:139:public void setMaxX(java.lang.Number)
+    146:147:public void setMinY(java.lang.Number)
+    154:155:public void setMaxY(java.lang.Number)
+com.androidplot.xy.SimpleXYSeries:
+    50:52:public SimpleXYSeries(java.util.List,com.androidplot.xy.SimpleXYSeries$ArrayFormat,java.lang.String)
+    55:66:public SimpleXYSeries(java.util.List,java.util.List,java.lang.String)
+    130:134:public void setX(java.lang.Number,int)
+    142:146:public void setY(java.lang.Number,int)
+    149:151:public synchronized void addFirst(java.lang.Number,java.lang.Number)
+    158:161:public synchronized android.util.Pair removeFirst()
+    165:167:public synchronized void addLast(java.lang.Number,java.lang.Number)
+    174:177:public synchronized android.util.Pair removeLast()
+com.androidplot.xy.StepFormatter
+com.androidplot.xy.ValueMarker:
+    private com.androidplot.xy.ValueMarker$TextOrientation d
+    private int e
+    18:19:public void setText(java.lang.String)
+    48:52:public ValueMarker(java.lang.Number,java.lang.String,com.androidplot.ui.PositionMetric)
+    63:68:public ValueMarker(java.lang.Number,java.lang.String,com.androidplot.ui.PositionMetric,android.graphics.Paint,android.graphics.Paint)
+    71:74:public ValueMarker(java.lang.Number,java.lang.String,com.androidplot.ui.PositionMetric,int,int)
+    81:82:public void setValue(java.lang.Number)
+    89:90:public void setLinePaint(android.graphics.Paint)
+    97:98:public void setTextPaint(android.graphics.Paint)
+    109:109:public com.androidplot.xy.ValueMarker$TextOrientation getTextOrientation()
+    118:119:public void setTextOrientation(com.androidplot.xy.ValueMarker$TextOrientation)
+    126:126:public int getTextMargin()
+    130:131:public void setTextMargin(int)
+    138:139:public void setTextPosition(com.androidplot.ui.PositionMetric)
+com.androidplot.xy.ValueMarker$TextOrientation
+com.androidplot.xy.XValueMarker:
+    8:9:public XValueMarker(java.lang.Number,java.lang.String)
+    12:13:public XValueMarker(java.lang.Number,java.lang.String,com.androidplot.xy.YPositionMetric,android.graphics.Paint,android.graphics.Paint)
+    16:17:public XValueMarker(java.lang.Number,java.lang.String,com.androidplot.xy.YPositionMetric,int,int)
+com.androidplot.xy.XYGraphBounds
+com.androidplot.xy.XYGraphWidget:
+    123:123:public com.androidplot.util.ZIndexable getAxisValueLabelRegions()
+    135:136:public void addAxisValueLabelRegion(com.androidplot.xy.RectRegion,com.androidplot.xy.AxisValueLabelFormatter)
+    147:148:public void addDomainAxisValueLabelRegion(double,double,com.androidplot.xy.AxisValueLabelFormatter)
+    158:159:public void addRangeAxisValueLabelRegion(double,double,com.androidplot.xy.AxisValueLabelFormatter)
+    179:184:public com.androidplot.xy.AxisValueLabelFormatter getAxisValueLabelFormatterForVal(double,double)
+    243:243:public android.graphics.RectF getGridRect()
+    259:259:public java.lang.Double getYVal(android.graphics.PointF)
+    280:280:public java.lang.Double getXVal(android.graphics.PointF)
+    678:678:public float getDomainLabelWidth()
+    682:683:public void setDomainLabelWidth(float)
+    686:686:public float getRangeLabelWidth()
+    690:691:public void setRangeLabelWidth(float)
+    694:694:public float getDomainLabelVerticalOffset()
+    698:699:public void setDomainLabelVerticalOffset(float)
+    702:702:public float getRangeLabelHorizontalOffset()
+    706:707:public void setRangeLabelHorizontalOffset(float)
+    714:715:public void setGridBackgroundPaint(android.graphics.Paint)
+    718:718:public android.graphics.Paint getDomainLabelPaint()
+    722:723:public void setDomainLabelPaint(android.graphics.Paint)
+    726:726:public android.graphics.Paint getRangeLabelPaint()
+    730:731:public void setRangeLabelPaint(android.graphics.Paint)
+    744:746:public void setGridLinePaint(android.graphics.Paint)
+    755:756:public void setRangeValueFormat(java.text.Format)
+    767:767:public int getDomainLabelTickExtension()
+    771:772:public void setDomainLabelTickExtension(int)
+    775:775:public int getRangeLabelTickExtension()
+    779:780:public void setRangeLabelTickExtension(int)
+    795:796:public void setTicksPerDomainLabel(int)
+    804:804:public int getRangeTicksPerLabel()
+    813:814:public void setRangeTicksPerLabel(int)
+    817:818:public void setGridPaddingTop(float)
+    821:821:public float getGridPaddingBottom()
+    825:826:public void setGridPaddingBottom(float)
+    829:829:public float getGridPaddingLeft()
+    833:834:public void setGridPaddingLeft(float)
+    837:837:public float getGridPaddingRight()
+    841:842:public void setGridPaddingRight(float)
+    845:845:public float getGridPaddingTop()
+    853:854:public void setDomainOriginLinePaint(android.graphics.Paint)
+    861:862:public void setRangeOriginLinePaint(android.graphics.Paint)
+    865:865:public android.graphics.Paint getDomainOriginLabelPaint()
+    869:870:public void setDomainOriginLabelPaint(android.graphics.Paint)
+    873:873:public android.graphics.Paint getRangeOriginLabelPaint()
+    877:878:public void setRangeOriginLabelPaint(android.graphics.Paint)
+    881:883:public void setCursorPosition(float,float)
+    886:887:public void setCursorPosition(android.graphics.PointF)
+    898:899:public void setDomainCursorPosition(float)
+    910:911:public void setRangeCursorPosition(float)
+    914:914:public android.graphics.Paint getCursorLabelPaint()
+    918:919:public void setCursorLabelPaint(android.graphics.Paint)
+    922:922:public android.graphics.Paint getCursorLabelBackgroundPaint()
+    926:927:public void setCursorLabelBackgroundPaint(android.graphics.Paint)
+    934:935:public void setDrawMarkersEnabled(boolean)
+com.androidplot.xy.XYGraphWidget$XYPlotOrientation
+com.androidplot.xy.XYLegendWidget:
+    182:182:public android.graphics.Paint getTextPaint()
+    186:187:public void setTextPaint(android.graphics.Paint)
+    190:190:public boolean isDrawIconBackgroundEnabled()
+    194:195:public void setDrawIconBackgroundEnabled(boolean)
+    198:198:public boolean isDrawIconBorderEnabled()
+    202:203:public void setDrawIconBorderEnabled(boolean)
+    206:206:public com.androidplot.ui.TableModel getTableModel()
+    210:210:public com.androidplot.ui.SizeMetrics getIconSizeMetrics()
+    219:220:public void setIconSizeMetrics(com.androidplot.ui.SizeMetrics)
+com.androidplot.xy.XYPlot:
+    209:213:public void setGridPadding(float,float,float,float)
+    237:240:public boolean containsPoint(float,float)
+    250:250:public boolean containsPoint(android.graphics.PointF)
+    254:255:public void setCursorPosition(android.graphics.PointF)
+    258:259:public void setCursorPosition(float,float)
+    262:262:public java.lang.Number getYVal(android.graphics.PointF)
+    267:267:public java.lang.Number getXVal(android.graphics.PointF)
+    458:459:public void centerOnDomainOrigin(java.lang.Number)
+    469:486:public void centerOnDomainOrigin(java.lang.Number,java.lang.Number,com.androidplot.xy.BoundaryMode)
+    493:494:public void centerOnRangeOrigin(java.lang.Number)
+    504:521:public void centerOnRangeOrigin(java.lang.Number,java.lang.Number,com.androidplot.xy.BoundaryMode)
+    626:627:public boolean addSeries(com.androidplot.series.XYSeries,com.androidplot.xy.XYSeriesFormatter)
+    648:648:public int getTicksPerRangeLabel()
+    666:666:public int getTicksPerDomainLabel()
+    675:676:public void setTicksPerDomainLabel(int)
+    683:684:public void setDomainStepMode(com.androidplot.xy.XYStepMode)
+    695:697:public void setDomainStep(com.androidplot.xy.XYStepMode,double)
+    704:705:public void setRangeStepMode(com.androidplot.xy.XYStepMode)
+    712:713:public void setRangeStepValue(double)
+    716:718:public void setRangeStep(com.androidplot.xy.XYStepMode,double)
+    747:748:public void setLegendWidget(com.androidplot.xy.XYLegendWidget)
+    755:756:public void setGraphWidget(com.androidplot.xy.XYGraphWidget)
+    763:764:public void setDomainLabelWidget(com.androidplot.ui.widget.DomainLabelWidget)
+    771:772:public void setRangeLabelWidget(com.androidplot.ui.widget.RangeLabelWidget)
+    779:779:public java.text.Format getRangeValueFormat()
+    787:788:public void setRangeValueFormat(java.text.Format)
+    795:795:public java.text.Format getDomainValueFormat()
+    935:939:public synchronized void setUserDomainOrigin(java.lang.Number)
+    942:946:public synchronized void setUserRangeOrigin(java.lang.Number)
+    949:949:public com.androidplot.xy.XYFramingModel getDomainFramingModel()
+    958:958:public com.androidplot.xy.XYFramingModel getRangeFramingModel()
+    982:982:public boolean isDrawDomainOriginEnabled()
+    986:987:public void setDrawDomainOriginEnabled(boolean)
+    990:990:public boolean isDrawRangeOriginEnabled()
+    994:995:public void setDrawRangeOriginEnabled(boolean)
+    1003:1006:public boolean addMarker(com.androidplot.xy.YValueMarker)
+    1016:1020:public com.androidplot.xy.YValueMarker removeMarker(com.androidplot.xy.YValueMarker)
+    1029:1031:public int removeMarkers()
+    1039:1041:public int removeYMarkers()
+    1050:1050:public boolean addMarker(com.androidplot.xy.XValueMarker)
+    1059:1063:public com.androidplot.xy.XValueMarker removeMarker(com.androidplot.xy.XValueMarker)
+    1072:1074:public int removeXMarkers()
+com.androidplot.xy.XYRegionFormatter:
+    13:19:public XYRegionFormatter(int)
+    22:22:public int getColor()
+    26:27:public void setColor(int)
+com.androidplot.xy.XYRendererFactory
+com.androidplot.xy.XYSeriesFormatter:
+    15:16:public void addRegion(com.androidplot.xy.RectRegion,com.androidplot.xy.XYRegionFormatter)
+    19:20:public void removeRegion(com.androidplot.xy.RectRegion)
+com.androidplot.xy.XYStep:
+    22:22:public double getStepCount()
+com.androidplot.xy.XYStepCalculator:
+    10:30:public XYStepCalculator()
+com.androidplot.xy.YValueMarker:
+    9:10:public YValueMarker(java.lang.Number,java.lang.String)
+    13:14:public YValueMarker(java.lang.Number,java.lang.String,com.androidplot.xy.XPositionMetric,android.graphics.Paint,android.graphics.Paint)
+    17:18:public YValueMarker(java.lang.Number,java.lang.String,com.androidplot.xy.XPositionMetric,int,int)
+com.google.zxing.BinaryBitmap:
+    92:92:public boolean isCropSupported()
+    106:107:public com.google.zxing.BinaryBitmap crop(int,int,int,int)
+com.google.zxing.EncodeHintType
+com.google.zxing.LuminanceSource:
+    80:80:public boolean isCropSupported()
+    94:94:public com.google.zxing.LuminanceSource crop(int,int,int,int)
+com.google.zxing.MultiFormatReader:
+    54:55:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.MultiFormatWriter
+com.google.zxing.MultiFormatWriter$1
+com.google.zxing.Reader:
+    public abstract com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.Result:
+    67:67:public byte[] getRawBytes()
+    125:125:public long getTimestamp()
+com.google.zxing.Writer
+com.google.zxing.WriterException
+com.google.zxing.aztec.AztecReader:
+    54:54:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.client.result.AbstractDoCoMoResultParser
+com.google.zxing.client.result.AddressBookAUResultParser
+com.google.zxing.client.result.AddressBookDoCoMoResultParser
+com.google.zxing.client.result.AddressBookParsedResult
+com.google.zxing.client.result.BizcardResultParser
+com.google.zxing.client.result.BookmarkDoCoMoResultParser
+com.google.zxing.client.result.CalendarParsedResult
+com.google.zxing.client.result.EmailAddressParsedResult
+com.google.zxing.client.result.EmailAddressResultParser
+com.google.zxing.client.result.EmailDoCoMoResultParser
+com.google.zxing.client.result.ExpandedProductParsedResult
+com.google.zxing.client.result.ExpandedProductResultParser
+com.google.zxing.client.result.GeoParsedResult
+com.google.zxing.client.result.GeoResultParser
+com.google.zxing.client.result.ISBNParsedResult
+com.google.zxing.client.result.ISBNResultParser
+com.google.zxing.client.result.ParsedResult
+com.google.zxing.client.result.ParsedResultType
+com.google.zxing.client.result.ProductParsedResult
+com.google.zxing.client.result.ProductResultParser
+com.google.zxing.client.result.ResultParser
+com.google.zxing.client.result.SMSMMSResultParser
+com.google.zxing.client.result.SMSParsedResult
+com.google.zxing.client.result.SMSTOMMSTOResultParser
+com.google.zxing.client.result.SMTPResultParser
+com.google.zxing.client.result.TelParsedResult
+com.google.zxing.client.result.TelResultParser
+com.google.zxing.client.result.TextParsedResult
+com.google.zxing.client.result.URIParsedResult
+com.google.zxing.client.result.URIResultParser
+com.google.zxing.client.result.URLTOResultParser
+com.google.zxing.client.result.VCardResultParser
+com.google.zxing.client.result.VEventResultParser
+com.google.zxing.client.result.WifiParsedResult
+com.google.zxing.client.result.WifiResultParser
+com.google.zxing.common.BitArray:
+    44:44:public int getSizeInBytes()
+    48:53:private void ensureCapacity(int)
+    78:79:public void flip(int)
+    134:135:public void setBulk(int,int)
+    144:167:public void setRange(int,int)
+    221:226:public void appendBit(boolean)
+    234:241:public void appendBits(int,int)
+    244:249:public void appendBitArray(com.google.zxing.common.BitArray)
+    252:260:public void xor(com.google.zxing.common.BitArray)
+    271:281:public void toBytes(int,byte[],int,int)
+    288:288:public int[] getBitArray()
+com.google.zxing.common.BitMatrix:
+    94:98:public void clear()
+    137:144:public com.google.zxing.common.BitArray getRow(int,com.google.zxing.common.BitArray)
+    152:153:public void setRow(int,com.google.zxing.common.BitArray)
+com.google.zxing.common.CharacterSetECI:
+    91:91:public int getValue()
+    113:113:public static com.google.zxing.common.CharacterSetECI getCharacterSetECIByName(java.lang.String)
+com.google.zxing.common.GlobalHistogramBinarizer:
+    private static final int LUMINANCE_BITS
+    private static final int LUMINANCE_SHIFT
+    private static final int LUMINANCE_BUCKETS
+com.google.zxing.common.GridSampler:
+    48:49:public static void setGridSampler(com.google.zxing.common.GridSampler)
+com.google.zxing.common.HybridBinarizer:
+    private static final int BLOCK_SIZE_POWER
+    private static final int BLOCK_SIZE
+    private static final int BLOCK_SIZE_MASK
+    private static final int MINIMUM_DIMENSION
+com.google.zxing.common.PerspectiveTransform:
+    88:96:public void transformPoints(float[],float[])
+com.google.zxing.common.StringUtils:
+    public static final java.lang.String SHIFT_JIS
+    public static final java.lang.String GB2312
+    private static final java.lang.String EUC_JP
+    private static final java.lang.String UTF8
+    private static final java.lang.String ISO88591
+    41:41:private StringUtils()
+com.google.zxing.common.detector.MonochromeRectangleDetector
+com.google.zxing.common.detector.WhiteRectangleDetector:
+    private static final int INIT_SIZE
+    private static final int CORR
+com.google.zxing.common.reedsolomon.GenericGF:
+    private static final int INITIALIZATION_THRESHOLD
+com.google.zxing.common.reedsolomon.GenericGFPoly:
+    70:70:int[] getCoefficients()
+    201:223:com.google.zxing.common.reedsolomon.GenericGFPoly[] divide(com.google.zxing.common.reedsolomon.GenericGFPoly)
+com.google.zxing.common.reedsolomon.ReedSolomonEncoder
+com.google.zxing.datamatrix.DataMatrixReader:
+    59:59:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser:
+    79:80:private DecodedBitStreamParser()
+com.google.zxing.datamatrix.decoder.Decoder:
+    51:60:public com.google.zxing.common.DecoderResult decode(boolean[][])
+com.google.zxing.maxicode.MaxiCodeReader:
+    private static final int MATRIX_WIDTH
+    private static final int MATRIX_HEIGHT
+    47:47:com.google.zxing.maxicode.decoder.Decoder getDecoder()
+    60:60:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.maxicode.decoder.DecodedBitStreamParser:
+    private static final char SHIFTA
+    private static final char SHIFTB
+    private static final char SHIFTC
+    private static final char SHIFTD
+    private static final char SHIFTE
+    private static final char TWOSHIFTA
+    private static final char THREESHIFTA
+    private static final char LATCHA
+    private static final char LATCHB
+    private static final char LOCK
+    private static final char ECI
+    private static final char NS
+    private static final char PAD
+    private static final char FS
+    private static final char GS
+    private static final char RS
+    60:61:private DecodedBitStreamParser()
+com.google.zxing.maxicode.decoder.Decoder:
+    private static final int ALL
+    private static final int EVEN
+    private static final int ODD
+    49:49:public com.google.zxing.common.DecoderResult decode(com.google.zxing.common.BitMatrix)
+com.google.zxing.multi.ByQuadrantReader
+com.google.zxing.multi.GenericMultipleBarcodeReader
+com.google.zxing.multi.MultipleBarcodeReader
+com.google.zxing.multi.qrcode.QRCodeMultiReader
+com.google.zxing.multi.qrcode.detector.MultiDetector
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$1
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$ModuleSizeComparator
+com.google.zxing.oned.CodaBarReader:
+    private static final java.lang.String ALPHABET_STRING
+    private static final int minCharacterLength
+com.google.zxing.oned.CodaBarWriter
+com.google.zxing.oned.Code128Reader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int CODE_SHIFT
+    private static final int CODE_CODE_C
+    private static final int CODE_CODE_B
+    private static final int CODE_CODE_A
+    private static final int CODE_FNC_1
+    private static final int CODE_FNC_2
+    private static final int CODE_FNC_3
+    private static final int CODE_FNC_4_A
+    private static final int CODE_FNC_4_B
+    private static final int CODE_START_A
+    private static final int CODE_START_B
+    private static final int CODE_START_C
+    private static final int CODE_STOP
+com.google.zxing.oned.Code128Writer
+com.google.zxing.oned.Code39Reader:
+    static final java.lang.String ALPHABET_STRING
+    90:93:public Code39Reader(boolean,boolean)
+com.google.zxing.oned.Code39Writer
+com.google.zxing.oned.Code93Reader:
+    private static final java.lang.String ALPHABET_STRING
+com.google.zxing.oned.EAN13Writer
+com.google.zxing.oned.EAN8Writer
+com.google.zxing.oned.ITFReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int W
+    private static final int N
+com.google.zxing.oned.ITFWriter
+com.google.zxing.oned.OneDReader:
+    protected static final int INTEGER_MATH_SHIFT
+    protected static final int PATTERN_MATCH_RESULT_SCALE_FACTOR
+    49:49:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.oned.OneDimensionalCodeWriter
+com.google.zxing.oned.UPCAReader:
+    57:57:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.oned.UPCAWriter
+com.google.zxing.oned.UPCEANReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+com.google.zxing.oned.UPCEANWriter
+com.google.zxing.oned.rss.AbstractRSSReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final float MIN_FINDER_PATTERN_RATIO
+    private static final float MAX_FINDER_PATTERN_RATIO
+com.google.zxing.oned.rss.RSSUtils:
+    22:22:private RSSUtils()
+    25:61:static int[] getRSSwidths(int,int,int,int,boolean)
+    128:152:static int[] elements(int[],int,int)
+com.google.zxing.oned.rss.expanded.BitArrayBuilder:
+    39:40:private BitArrayBuilder()
+com.google.zxing.oned.rss.expanded.RSSExpandedReader:
+    private static final int FINDER_PAT_A
+    private static final int FINDER_PAT_B
+    private static final int FINDER_PAT_C
+    private static final int FINDER_PAT_D
+    private static final int FINDER_PAT_E
+    private static final int FINDER_PAT_F
+    private static final int MAX_PAIRS
+com.google.zxing.oned.rss.expanded.decoders.AI01392xDecoder:
+    private static final int HEADER_SIZE
+    private static final int LAST_DIGIT_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01393xDecoder:
+    private static final int HEADER_SIZE
+    private static final int LAST_DIGIT_SIZE
+    private static final int FIRST_THREE_DIGITS_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI013x0x1xDecoder:
+    private static final int HEADER_SIZE
+    private static final int WEIGHT_SIZE
+    private static final int DATE_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI013x0xDecoder:
+    private static final int HEADER_SIZE
+    private static final int WEIGHT_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01AndOtherAIs:
+    private static final int HEADER_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01decoder:
+    protected static final int GTIN_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AnyAIDecoder:
+    private static final int HEADER_SIZE
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState:
+    65:65:boolean isNumeric()
+com.google.zxing.oned.rss.expanded.decoders.DecodedChar:
+    static final char FNC1
+com.google.zxing.oned.rss.expanded.decoders.DecodedNumeric:
+    static final int FNC1
+    64:64:int getValue()
+    76:76:boolean isAnyFNC1()
+com.google.zxing.oned.rss.expanded.decoders.FieldParser:
+    189:190:private FieldParser()
+com.google.zxing.pdf417.PDF417Reader:
+    55:55:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.pdf417.decoder.BitMatrixParser:
+    private static final int MAX_ROW_DIFFERENCE
+    private static final int MAX_ROWS
+    private static final int MAX_CW_CAPACITY
+    private static final int MODULES_IN_SYMBOL
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser:
+    private static final int TEXT_COMPACTION_MODE_LATCH
+    private static final int BYTE_COMPACTION_MODE_LATCH
+    private static final int NUMERIC_COMPACTION_MODE_LATCH
+    private static final int BYTE_COMPACTION_MODE_LATCH_6
+    private static final int BEGIN_MACRO_PDF417_CONTROL_BLOCK
+    private static final int BEGIN_MACRO_PDF417_OPTIONAL_FIELD
+    private static final int MACRO_PDF417_TERMINATOR
+    private static final int MODE_SHIFT_TO_BYTE_COMPACTION_MODE
+    private static final int MAX_NUMERIC_CODEWORDS
+    private static final int PL
+    private static final int LL
+    private static final int AS
+    private static final int ML
+    private static final int AL
+    private static final int PS
+    private static final int PAL
+    83:84:private DecodedBitStreamParser()
+com.google.zxing.pdf417.decoder.Decoder:
+    private static final int MAX_ERRORS
+    private static final int MAX_EC_CODEWORDS
+    51:60:public com.google.zxing.common.DecoderResult decode(boolean[][])
+com.google.zxing.pdf417.detector.Detector:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int SKEW_THRESHOLD
+com.google.zxing.pdf417.encoder.BarcodeMatrix
+com.google.zxing.pdf417.encoder.BarcodeRow
+com.google.zxing.pdf417.encoder.Compaction
+com.google.zxing.pdf417.encoder.PDF417
+com.google.zxing.pdf417.encoder.PDF417ErrorCorrection
+com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder
+com.google.zxing.pdf417.encoder.PDF417Writer
+com.google.zxing.qrcode.QRCodeReader:
+    50:50:protected com.google.zxing.qrcode.decoder.Decoder getDecoder()
+    63:63:public com.google.zxing.Result decode(com.google.zxing.BinaryBitmap)
+com.google.zxing.qrcode.QRCodeWriter
+com.google.zxing.qrcode.decoder.DecodedBitStreamParser:
+    private static final int GB2312_SUBSET
+    53:54:private DecodedBitStreamParser()
+com.google.zxing.qrcode.decoder.Decoder:
+    45:45:public com.google.zxing.common.DecoderResult decode(boolean[][])
+    59:68:public com.google.zxing.common.DecoderResult decode(boolean[][],java.util.Map)
+    72:72:public com.google.zxing.common.DecoderResult decode(com.google.zxing.common.BitMatrix)
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel:
+    45:45:public int getBits()
+com.google.zxing.qrcode.decoder.FormatInformation:
+    private static final int FORMAT_INFO_MASK_QR
+com.google.zxing.qrcode.decoder.Mode:
+    99:99:public int getBits()
+com.google.zxing.qrcode.decoder.Version$ECBlocks:
+    198:202:public int getNumBlocks()
+    206:206:public int getTotalECCodewords()
+com.google.zxing.qrcode.detector.Detector:
+    48:48:protected com.google.zxing.common.BitMatrix getImage()
+    52:52:protected com.google.zxing.ResultPointCallback getResultPointCallback()
+    62:62:public com.google.zxing.common.DetectorResult detect()
+com.google.zxing.qrcode.detector.FinderPattern:
+    52:53:void incrementCount()
+com.google.zxing.qrcode.detector.FinderPatternFinder:
+    private static final int CENTER_QUORUM
+    protected static final int MIN_SKIP
+    protected static final int MAX_MODULES
+    private static final int INTEGER_MATH_SHIFT
+    59:60:public FinderPatternFinder(com.google.zxing.common.BitMatrix)
+    70:70:protected com.google.zxing.common.BitMatrix getImage()
+    74:74:protected java.util.List getPossibleCenters()
+com.google.zxing.qrcode.encoder.BlockPair
+com.google.zxing.qrcode.encoder.ByteMatrix
+com.google.zxing.qrcode.encoder.Encoder
+com.google.zxing.qrcode.encoder.Encoder$1
+com.google.zxing.qrcode.encoder.MaskUtil
+com.google.zxing.qrcode.encoder.MatrixUtil
+com.google.zxing.qrcode.encoder.QRCode

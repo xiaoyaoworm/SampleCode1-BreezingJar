@@ -1,0 +1,27 @@
+# view AndroidManifest.xml #generated:20
+-keep class co.breezing.main.DeviceList { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class co.breezing.main.FinalResults { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class co.breezing.main.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class co.breezing.main.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class co.breezing.main.Metabolism { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class co.breezing.main.Results { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class co.breezing.main.TrainingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class co.breezing.module.four.guidance.Guidance { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class co.breezing.module.one.qrcode.thirdlib.capture.CaptureActivity { <init>(...); }
+
